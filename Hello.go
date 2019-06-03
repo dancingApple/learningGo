@@ -12,4 +12,6 @@ func main() {
 	fmt.Println("Declare variable num and assign its value to",num)
 	num = 56
 	fmt.Println("Re-assign num value to",num)
+	fmt.Print("And it's type is ")
+	fmt.Printf("%T\n",num)
 }
